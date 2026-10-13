@@ -1,0 +1,57 @@
+incident_id,source_ip,affected_asset,first_seen,last_seen,event_count,event_types,max_severity
+1,203.0.113.1,database-01,2026-10-13 11:47:00,2026-10-13 12:16:00,2,"login_failure, malware_alert",high
+2,203.0.113.1,web-server-01,2026-10-13 14:49:00,2026-10-13 15:12:00,3,"file_access, login_failure, unauthorized_access",medium
+3,203.0.113.1,workstation-01,2026-10-13 09:00:00,2026-10-13 11:35:00,3,"login_success, malware_alert, unauthorized_access",medium
+4,203.0.113.10,auth-server-01,2026-10-13 09:54:00,2026-10-13 15:26:00,3,"login_failure, port_scan",high
+5,203.0.113.10,web-server-01,2026-10-13 08:24:00,2026-10-13 15:36:00,4,"file_access, login_failure, malware_alert, unauthorized_access",medium
+6,203.0.113.10,workstation-01,2026-10-13 09:33:00,2026-10-13 12:46:00,2,"login_failure, unauthorized_access",medium
+7,203.0.113.11,auth-server-01,2026-10-13 08:52:00,2026-10-13 14:53:00,2,"login_failure, malware_alert",high
+8,203.0.113.11,database-01,2026-10-13 10:17:00,2026-10-13 13:43:00,4,"login_failure, malware_alert, unauthorized_access",medium
+9,203.0.113.11,web-server-01,2026-10-13 12:05:00,2026-10-13 13:22:00,3,"file_access, login_failure, privilege_escalation",high
+10,203.0.113.11,workstation-01,2026-10-13 10:45:00,2026-10-13 13:00:00,2,"malware_alert, unauthorized_access",low
+11,203.0.113.12,auth-server-01,2026-10-13 10:51:00,2026-10-13 12:42:00,3,"login_failure, malware_alert",medium
+12,203.0.113.12,database-01,2026-10-13 09:13:00,2026-10-13 15:46:00,3,"login_failure, unauthorized_access",high
+13,203.0.113.12,web-server-01,2026-10-13 08:33:00,2026-10-13 10:29:00,2,"file_access, login_success",high
+14,203.0.113.12,workstation-01,2026-10-13 09:05:00,2026-10-13 14:21:00,2,"malware_alert, unauthorized_access",medium
+15,203.0.113.13,auth-server-01,2026-10-13 08:18:00,2026-10-13 15:35:00,5,"login_failure, login_success, malware_alert, privilege_escalation, unauthorized_access",high
+16,203.0.113.13,database-01,2026-10-13 13:27:00,2026-10-13 13:27:00,1,login_failure,critical
+17,203.0.113.13,web-server-01,2026-10-13 08:04:00,2026-10-13 08:04:00,1,login_failure,critical
+18,203.0.113.13,workstation-01,2026-10-13 08:23:00,2026-10-13 15:10:00,3,"login_failure, privilege_escalation, unauthorized_access",high
+19,203.0.113.14,auth-server-01,2026-10-13 10:23:00,2026-10-13 15:49:00,3,"login_failure, malware_alert",low
+20,203.0.113.14,database-01,2026-10-13 08:00:00,2026-10-13 15:04:00,5,"file_access, login_failure, unauthorized_access",low
+21,203.0.113.14,web-server-01,2026-10-13 08:10:00,2026-10-13 15:32:00,6,"file_access, login_failure, port_scan, privilege_escalation",medium
+22,203.0.113.14,workstation-01,2026-10-13 09:43:00,2026-10-13 13:25:00,5,"file_access, login_failure, port_scan, unauthorized_access",low
+23,203.0.113.15,auth-server-01,2026-10-13 09:59:00,2026-10-13 13:45:00,2,"login_failure, port_scan",high
+24,203.0.113.15,database-01,2026-10-13 10:35:00,2026-10-13 14:40:00,3,"login_failure, malware_alert",medium
+25,203.0.113.15,web-server-01,2026-10-13 09:41:00,2026-10-13 11:16:00,2,"login_failure, unauthorized_access",medium
+26,203.0.113.15,workstation-01,2026-10-13 09:10:00,2026-10-13 09:10:00,1,unauthorized_access,high
+27,203.0.113.2,auth-server-01,2026-10-13 10:04:00,2026-10-13 10:04:00,1,port_scan,critical
+28,203.0.113.2,web-server-01,2026-10-13 09:07:00,2026-10-13 14:09:00,4,"file_access, login_failure, login_success, malware_alert",high
+29,203.0.113.2,workstation-01,2026-10-13 09:19:00,2026-10-13 15:44:00,3,"login_failure, malware_alert",high
+30,203.0.113.3,auth-server-01,2026-10-13 09:16:00,2026-10-13 12:14:00,2,"malware_alert, port_scan",high
+31,203.0.113.3,database-01,2026-10-13 08:30:00,2026-10-13 10:49:00,2,"login_failure, privilege_escalation",medium
+32,203.0.113.3,web-server-01,2026-10-13 08:42:00,2026-10-13 15:40:00,2,"malware_alert, unauthorized_access",low
+33,203.0.113.3,workstation-01,2026-10-13 12:07:00,2026-10-13 14:55:00,3,"port_scan, unauthorized_access",critical
+34,203.0.113.4,auth-server-01,2026-10-13 13:16:00,2026-10-13 14:14:00,3,"login_failure, unauthorized_access",high
+35,203.0.113.4,database-01,2026-10-13 08:16:00,2026-10-13 08:54:00,3,"login_failure, privilege_escalation",medium
+36,203.0.113.4,web-server-01,2026-10-13 08:58:00,2026-10-13 14:34:00,5,"file_access, login_failure, port_scan, unauthorized_access",medium
+37,203.0.113.4,workstation-01,2026-10-13 10:40:00,2026-10-13 15:53:00,3,"login_success, unauthorized_access",medium
+38,203.0.113.5,auth-server-01,2026-10-13 08:27:00,2026-10-13 08:27:00,1,file_access,medium
+39,203.0.113.5,database-01,2026-10-13 10:25:00,2026-10-13 14:02:00,3,"file_access, login_failure",medium
+40,203.0.113.5,web-server-01,2026-10-13 10:19:00,2026-10-13 15:02:00,2,"login_failure, unauthorized_access",medium
+41,203.0.113.5,workstation-01,2026-10-13 13:57:00,2026-10-13 13:57:00,1,file_access,medium
+42,203.0.113.6,auth-server-01,2026-10-13 08:08:00,2026-10-13 15:59:00,6,"file_access, login_failure",medium
+43,203.0.113.6,database-01,2026-10-13 10:00:00,2026-10-13 12:59:00,4,"login_failure, unauthorized_access",medium
+44,203.0.113.6,web-server-01,2026-10-13 14:24:00,2026-10-13 15:55:00,2,"login_failure, port_scan",high
+45,203.0.113.6,workstation-01,2026-10-13 08:41:00,2026-10-13 15:20:00,4,"login_failure, unauthorized_access",medium
+46,203.0.113.7,auth-server-01,2026-10-13 08:36:00,2026-10-13 15:06:00,5,"file_access, login_failure, port_scan, unauthorized_access",medium
+47,203.0.113.7,web-server-01,2026-10-13 11:21:00,2026-10-13 13:41:00,2,"login_failure, unauthorized_access",low
+48,203.0.113.7,workstation-01,2026-10-13 13:11:00,2026-10-13 14:45:00,3,"file_access, malware_alert, unauthorized_access",medium
+49,203.0.113.8,auth-server-01,2026-10-13 12:23:00,2026-10-13 13:34:00,2,"file_access, malware_alert",high
+50,203.0.113.8,database-01,2026-10-13 13:14:00,2026-10-13 13:14:00,1,file_access,critical
+51,203.0.113.8,web-server-01,2026-10-13 09:46:00,2026-10-13 15:17:00,2,"file_access, login_failure",high
+52,203.0.113.8,workstation-01,2026-10-13 08:46:00,2026-10-13 13:20:00,5,"login_failure, unauthorized_access",low
+53,203.0.113.9,auth-server-01,2026-10-13 09:49:00,2026-10-13 10:57:00,3,"login_failure, port_scan",low
+54,203.0.113.9,database-01,2026-10-13 10:06:00,2026-10-13 11:56:00,3,"malware_alert, port_scan, privilege_escalation",high
+55,203.0.113.9,web-server-01,2026-10-13 09:22:00,2026-10-13 14:43:00,3,"file_access, port_scan, unauthorized_access",medium
+56,203.0.113.9,workstation-01,2026-10-13 09:29:00,2026-10-13 14:32:00,2,"login_failure, malware_alert",high
